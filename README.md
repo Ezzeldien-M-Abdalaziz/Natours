@@ -1,7 +1,7 @@
 <h1>Natours</h1>
 
 <h3>Structure and Methodology</h3>
-SCSS and HTML
+<p>SCSS and HTML</p>
 Utilized SCSS (Sass) for styling.
 Employed the 7-1 architecture to organize SCSS files into manageable components.
 BEM Methodology
