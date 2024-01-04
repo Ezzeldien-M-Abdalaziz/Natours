@@ -374,7 +374,7 @@ body {
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
 .card__side--front {
-  background-color: #fff;
+  background-color: green;
 }
 .card__side--back {
   -webkit-transform: rotateY(180deg);
@@ -393,8 +393,8 @@ body {
   background-image: linear-gradient(to right bottom, #63b654, #20a176);
 }
 .card:hover .card__side--front {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 .card:hover .card__side--back {
   -webkit-transform: rotateY(0);

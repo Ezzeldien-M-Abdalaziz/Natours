@@ -18,7 +18,7 @@
         box-shadow: 0 1.5rem 4rem rgba($color-black,.15);
 
         &--front{
-            background-color: $color-white;
+            background-color: green;
         }
 
         &--back{
@@ -39,7 +39,7 @@
    
 
     &:hover &__side--front{
-        transform: rotateY(180deg);
+        transform: rotateY(-180deg);
     }
     &:hover &__side--back{
         transform: rotateY(0);
