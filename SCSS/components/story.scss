@@ -5,16 +5,26 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
+    padding-left: 9rem;
     font-size: $default-font-size;
+    transform: skewX(-12deg);
+    
 
     &__shape{
         width:15rem;
         height: 15rem;
-        background-color: orangered;
         float: left;
-        //border-radius: 100%;
-        
         shape-outside: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+        transform: translate(-3rem) skewX(12deg);   //we need to skew() back in the oppisite direction to make it normall
+    }
+
+    &__img{
+        height: 100%;   //inherits the width of 15rem from the parent which is "__shape"
+    }
+
+    &__text{
+        transform: skewX(12deg); //we need to skew() back in the oppisite direction to make it normall
+
     }
 }
