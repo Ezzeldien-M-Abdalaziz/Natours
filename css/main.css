@@ -670,3 +670,15 @@ body {
   padding: 15rem 0;
   position: relative;
 }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#63b654), to(#20a176));
+  background-image: linear-gradient(to right bottom, #63b654, #20a176);
+}
+
+.book {
+  background-image: url(../img/nat-10.jpg);
+  background-size: cover;
+  height: 50rem;
+}
